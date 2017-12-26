@@ -1,0 +1,644 @@
+/* ------------------------------------- */
+/* Color References..................... */
+/* ------------------------------------- */
+
+/* lightgray: #9e9e9e;
+/* activegray: #666;
+/* lightblue: #78CEEC;
+/* blue-level1: #009AF8;
+/* purple: #8D7ADC;
+/* lightpurple: #dbd7f3;
+
+/* ------------------------------------- */
+/* Fonts................................ */
+/* ------------------------------------- */
+
+/* Webfont: Lato-Black */@font-face {
+    font-family: 'LatoWebBlack';
+    src: url('../fonts/Lato-Black.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Black.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Black.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: Lato-Bold */@font-face {
+    font-family: 'LatoWebBold';
+    src: url('../fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: Lato-Hairline */@font-face {
+    font-family: 'LatoWebHairline';
+    src: url('../fonts/Lato-Hairline.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Hairline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Hairline.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Hairline.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Hairline.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Heavy */@font-face {
+    font-family: 'LatoWebHeavy';
+    src: url('../fonts/Lato-Heavy.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Heavy.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Heavy.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Heavy.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: Lato-Light */@font-face {
+    font-family: 'LatoWebLight';
+    src: url('../fonts/Lato-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Light.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Light.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Medium */@font-face {
+    font-family: 'LatoWebMedium';
+    src: url('../fonts/Lato-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Medium.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Medium.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Regular */@font-face {
+    font-family: 'LatoWeb';
+    src: url('../fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Semibold */@font-face {
+    font-family: 'LatoWebSemibold';
+    src: url('../fonts/Lato-Semibold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Semibold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Semibold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Semibold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: Lato-Thin */@font-face {
+    font-family: 'LatoWebThin';
+    src: url('../fonts/Lato-Thin.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Thin.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato-Thin.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* ------------------------------------- */
+/* Reset styles ........................ */
+/* ------------------------------------- */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'LatoWeb';    
+    vertical-align: top;
+    font-size: 14px;
+    list-style: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+img.scale, img.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ------------------------------------- */
+/* Grid System ......................... */
+/* ------------------------------------- */
+/* Based on Rwdgrid 2.0*/
+
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.col{
+    float: left;
+    padding: 10px;
+    width:100%;
+}
+
+.clear-grid{
+    clear:both;
+    float:inherit;
+}
+.container {
+    margin:0%;
+    width: 100%;
+}
+.container:after, .container:before {
+    display: table;
+    clear:both;
+    content: " ";
+}
+.nest {
+    margin:0s;
+    padding:0;
+    width:auto;
+}
+
+/* Mobile Grid ......................... */
+
+.xs12 {
+    width: 100%;
+}
+.xs11 {
+    width: 91.666663%;
+}
+.xs10 {
+    width: 83.33%;
+}
+.xs9 {
+    width: 74.999997%;
+}
+.xs8 {
+    width: 66.66666664%;
+}
+.xs7 {
+    width: 58.333%;
+}E
+.xs6 {
+    width: 50%;
+}
+.xs5 {
+    width: 41.6665%;
+}
+.xs4 {
+    width: 33.33%;
+}
+.xs3 {
+    width: 24.99%;
+}
+.xs2 {
+    width: 16.66666%;
+}
+.xs1 {
+    width: 8.33%;
+}
+
+/* Grid 720+ ........................... */
+
+@media (min-width: 576px) {
+    .sm12 {
+        width: 100%;
+    }
+    .sm11 {
+        width: 91.666663%;
+    }
+    .sm10 {
+        width: 83.33%;
+    }
+    .sm9 {
+        width: 74.999997%;
+    }
+    .sm8 {
+        width: 66.66666664%;
+    }
+    .sm7 {
+        width: 58.333%;
+    }
+    .sm6 {
+        width: 50%;
+    }
+    .sm5 {
+        width: 41.6665%;
+    }
+    .sm4 {
+        width: 33.33%;
+    }
+    .sm3 {
+        width: 24.99%;
+    }
+    .sm2 {
+        width: 16.66666%;
+    }
+    .sm1 {
+        width: 8.33%;
+    }
+}
+
+@media (min-width: 768px) {
+    .m12 {
+        width: 100%;
+    }
+    .m11 {
+        width: 91.666663%;
+    }
+    .m10 {
+        width: 83.33%;
+    }
+    .m9 {
+        width: 74.999997%;
+    }
+    .m8 {
+        width: 66.66666664%;
+    }
+    .m7 {
+        width: 58.333%;
+    }
+    .m6 {
+        width: 50%;
+    }
+    .m5 {
+        width: 41.6665%;
+    }
+    .m4 {
+        width: 33.33%;
+    }
+    .m3 {
+        width: 24.99%;
+    }
+    .m2 {
+        width: 16.66666%;
+    }
+    .m1 {
+        width: 8.33%;
+    }
+}
+
+
+
+/* ------------------------------------- */
+/* Desktop Styles ...................... */
+/* ------------------------------------- */
+
+@media only screen and (min-width: 720px) {
+  body, html{
+    /*overflow: hidden;*/
+  }
+
+  .sidebar{
+    background-color: #FFF;
+    height: 100%;
+    padding: 50px;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  .sidebar h1{
+    font-size: 16px;
+    margin: 35% 0;
+  }
+
+  .sidebar li{
+    padding: 30px 0 15px;
+    border-bottom: solid 1px #E9E9E9;
+  }
+
+  .sidebar li a{   
+    text-decoration: none;
+    color: #222;
+    font-family: 'LatoWebHeavy';
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+
+  .sidebar li a .plus{
+    font-size: 25px;
+    font-family: 'LatoWebHeavy';
+    float: right;
+  }
+
+  .content{
+    position: relative;
+    background-color: gray;
+    height: 100%;
+    margin-left: 16.66666%;
+  }
+  
+
+} /* Desktop breakpoint*/
+ 
+
+/* ------------------------------------- */
+/* Grid Effects ........................ */
+/* ------------------------------------- */
+
+/*.grid {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}*/
+
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+/*    width: 48%;*/
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+    pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.grid figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+
+.grid figure h2 span {
+    font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+    margin: 0;
+}
+
+.grid figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+figure.effect-chico img {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+figure.effect-chico:hover img {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-chico figcaption {
+    padding: 3em;
+}
+
+figure.effect-chico figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    content: '';
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+figure.effect-chico figcaption::before,
+figure.effect-chico p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-chico h2 {
+    padding: 20% 0 10px 0;
+}
+
+figure.effect-chico h2.hide {
+    visibility: hidden;
+}
+
+figure.effect-chico p {
+    margin: 0 auto;
+    max-width: 200px;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    margin-bottom: 10px;
+}
+
+figure.effect-chico:hover figcaption::before,
+figure.effect-chico:hover p {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+@media screen and (max-width: 50em) {
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .grid figure {
+        display: inline-block;
+        float: none;
+        margin: 10px auto;
+        width: 100%;
+    }
+}
+
+
+/* ------------------------------------- */
+/* Multilevel Menu ..................... */
+/* ------------------------------------- */
+
+.topnav {
+    padding: 40px 28px 25px 0;
+}
+  
+ul.topnav {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    line-height: 0.5em;
+    list-style: none;
+}
+  
+ul.topnav li {}
+  
+ul.topnav li a {
+    line-height: 10px;
+    font-size: 12px;
+    padding: 10px 5px;
+    color: #000;
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+}
+  
+ul.topnav li a:hover {
+    background-color:#675C7C;
+    color:white;
+}
+
+.dropdown .last-one{
+    border-bottom: none;
+}
+  
+ul.topnav ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+  
+ul.topnav ul li {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+  
+ul.topnav ul li a {
+    padding-left: 20px;
+    font-size: 10px;
+    font-weight: normal;
+}
+  
+ul.topnav ul li a:hover {
+    background-color:#D3C99C;
+    color:#675C7C;
+}
+  
+ul.topnav ul ul li a {
+    color:silver;
+    padding-left: 40px;
+}
+  
+ul.topnav ul ul li a:hover {
+    background-color:#D3CEB8;
+    color:#675C7C;
+}
+  
+ul.topnav span{
+    float:right;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Digital - Milton Neto</title>
+	<meta name="author" content="Milton Neto" />
+	<meta name="description" content="Portfolio Digital do WebDesigner e Produtor Multimídia - Milton Neto" />
+	<meta name="Resource-type" content="Document" />
+
+	<link type="text/css" rel="stylesheet" href="css/font-awesome.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+<body>
+	<nav class="col m2 sidebar">
+		<h1>Milton Neto</h1>
+		
+		<ul class="topnav">
+			<li><a href="#">Portfolio</a>
+				<ul class="dropdown">
+					<li><a href="#">Item 1</a></li>
+					<li><a href="#">Item 2</a></li>
+					<li><a href="#">Item 3</a></li>
+					<li class="last-one"><a href="#">Item 4</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">Sobre mim</a></li>
+			
+			<li><a href="#">Contatos</a></li>
+		</ul>
+	</nav>
+	<section class="col m10 nest content">
+
+		<div class="col m12 nest gallery grid">			
+			<figure class="col m3 nest gallery-item effect-chico">
+				<img src="img/thumb-euroland.png" class="responsive" />
+				<figcaption>
+					<h2 class="hide">Silly <span>Chico</span></h2>
+					
+					<p><i class="fa fa-search-plus fa-2x"></i></p>
+					<p>Chico's main fear was missing the morning bus.</p>
+					<a href="img/thumb-euroland.png">View more</a>
+				</figcaption>			
+			</figure>
+			
+			<figure class="col m3 nest gallery-item effect-chico">
+				<img src="img/thumb-euroland.png" class="responsive" />
+				<figcaption>
+					<h2 class="hide">Silly <span>Chico</span></h2>
+					
+					<p><i class="fa fa-plus-circle fa-2x"></i></p>
+					<p>Chico's main fear was missing the morning bus.</p>
+					<a href="img/thumb-euroland.png">View more</a>
+				</figcaption>			
+			</figure>
+
+
+			
+		</div>
+
+	</section>
+</body>
+
+<script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="js/scriptbreaker-multiple-accordion-1.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+//use the scriptbreaker.com multiple accordion menu
+    $(".topnav").accordion({
+        accordion:true,
+        speed: 500,
+        closedSign: '[+]',
+        openedSign: '[-]'
+    });
+});
+
+</script>
+</html>
